@@ -4,7 +4,7 @@ import { terser } from "rollup-plugin-terser";
 function createConfig(format) {
   const dir = format === "module" ? "esm" : format;
   return {
-    input: require.resolve("autopublish-template"),
+    input: require.resolve("moment"),
     output: {
       file: `${dir}/index.js`,
       sourcemap: true,

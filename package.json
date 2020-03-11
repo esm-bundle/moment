@@ -1,5 +1,5 @@
 {
-  "name": "@esm-bundle/autopublish-template",
+  "name": "@esm-bundle/moment",
   "version": "20.0.0",
   "description": "Repo to test esm-bundle's automatic publishing",
   "main": "index.js",
@@ -26,17 +26,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/moment.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/moment/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/moment#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",
-    "autopublish-template": "20.0.0",
     "chai": "4.2.0",
     "concurrently": "5.1.0",
     "husky": "4.2.3",
@@ -45,6 +44,7 @@
     "karma-firefox-launcher": "1.3.0",
     "karma-jasmine": "3.1.1",
     "mocha": "7.1.0",
+    "moment": "^2.24.0",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
     "release-it": "13.0.1",
