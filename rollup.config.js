@@ -4,12 +4,9 @@ import { terser } from "rollup-plugin-terser";
 function createConfig(format) {
   const dir = format === "module" ? "esm" : format;
   return {
-    input: {
-      moment: 'src/moment',
-    },
+    input: require.resolve("moment"),
     output: {
-      dir,
-      entryFileNames: `[name].min.js`,
+      file: `${dir}/index.js`,
       sourcemap: true,
       format
     },
