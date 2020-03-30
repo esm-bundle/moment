@@ -8,7 +8,7 @@
 
 A repo that tests automatic detection of upstream publishes and the publishing of `@esm-bundle` versions of them.
 
-Upstream repo at https://github.com/joeldenning/moment.
+Upstream repo at https://github.com/themcmurder/moment.
 
 ## JS Delivr
 
