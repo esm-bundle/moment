@@ -17,6 +17,7 @@ describe("@esm-bundle/moment", () => {
 
     it(`has default as a function`, async () => {
       const moment = await System.import("/base/system/index.js");
+      // this has default because this method of importing gets the whole module instead of just default
       const momentDate = moment.default(timestamp);
       expect(momentDate.format("MM")).toEqual("02");
     });
