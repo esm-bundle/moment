@@ -49,7 +49,7 @@
     "pretty-quick": "2.0.1",
     "release-it": "13.6.6",
     "release-it-plugin-esm-bundle": "2.1.0",
-    "rollup": "2.25.0",
+    "rollup": "2.26.0",
     "rollup-cli": "1.0.9",
     "rollup-plugin-terser": "7.0.0"
   },
