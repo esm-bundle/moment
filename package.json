@@ -45,7 +45,7 @@
     "karma-jasmine": "4.0.1",
     "mocha": "8.1.2",
     "moment": "2.27.0",
-    "prettier": "2.1.0",
+    "prettier": "2.1.1",
     "pretty-quick": "3.0.0",
     "release-it": "13.7.0",
     "release-it-plugin-esm-bundle": "2.1.0",
