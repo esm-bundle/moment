@@ -4918,10 +4918,10 @@ release-it-plugin-esm-bundle@2.1.0:
   resolved "https://registry.yarnpkg.com/release-it-plugin-esm-bundle/-/release-it-plugin-esm-bundle-2.1.0.tgz#e3b23223102e0fdf121cc6608d6c86a0a7b382eb"
   integrity sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==
 
-release-it@14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.0.0.tgz#d38c5f8565cf2f1f43e0844a5990e8fe8909a0cb"
-  integrity sha512-rDwpWGkHzM+B/qBI0NKdz7HDqsJSb2nRxLpkTVcT26jgX2xckTKWeJvHvJ7cynOtCN67mFk6mp7MBpTgdu8vKw==
+release-it@14.0.1:
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.0.1.tgz#9795e53d50308b4d15de769bed5dcd31a46acce1"
+  integrity sha512-QwC3xqsoWJqTylyfFwjDUwlR4JG03OV02xr7y7YX+SY78LU2+2PmYndnZRKBsmswXPKBFe8EtP7Og34wlWmjzg==
   dependencies:
     "@iarna/toml" "2.2.5"
     "@octokit/rest" "18.0.4"
