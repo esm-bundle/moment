@@ -1,6 +1,6 @@
 # moment
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/momentsvg?style=flat)](https://www.npmjs.com/package/@esm-bundle/moment [![build status](https://travis-ci.com/esm-bundle/moment.svg?branch=master)](https://travis-ci.com/esm-bundle/moment) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/moment/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/moment)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/moment.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/moment [![build status](https://travis-ci.com/esm-bundle/moment.svg?branch=master)](https://travis-ci.com/esm-bundle/moment) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/moment/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/moment)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
