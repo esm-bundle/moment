@@ -47,7 +47,7 @@
     "moment": "2.29.1",
     "prettier": "2.1.2",
     "pretty-quick": "3.0.2",
-    "release-it": "14.0.3",
+    "release-it": "14.0.4",
     "release-it-plugin-esm-bundle": "2.1.0",
     "rollup": "2.28.2",
     "rollup-cli": "1.0.9",
