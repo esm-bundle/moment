@@ -2,7 +2,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 17.1.0_rollup@2.39.0
   chai: 4.3.0
   concurrently: 5.3.0
-  husky: 5.0.9
+  husky: 5.1.1
   jest-cli: 26.6.3
   karma: 6.1.1
   karma-firefox-launcher: 2.1.0
@@ -2822,13 +2822,13 @@ packages:
       node: '>=10.17.0'
     resolution:
       integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
-  /husky/5.0.9:
+  /husky/5.1.1:
     dev: true
     engines:
       node: '>= 10'
     hasBin: true
     resolution:
-      integrity: sha512-0SjcaY21a+IRdx7p7r/X33Vc09UR2m8SbP8yfkhUX2/jAmwcz+GR7i9jXkp2pP3GfX23JhMkVP6SWwXB18uXtg==
+      integrity: sha512-80LZ736V0Nr4/st0c2COYaMbEQhHNmAbLMN8J/kLk7/mo0QdUkUGNDjv/7jVkhug377Wh8wfbWyaVXEJ/h2B/Q==
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -6395,14 +6395,14 @@ specifiers:
   '@rollup/plugin-commonjs': 17.1.0
   chai: 4.3.0
   concurrently: 5.3.0
-  husky: '5'
+  husky: 5.1.1
   jest-cli: 26.6.3
   karma: 6.1.1
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1
   mocha: 8.3.0
   moment: 2.29.1
-  pinst: ^2.1.6
+  pinst: 2.1.6
   prettier: 2.2.1
   pretty-quick: 3.1.0
   release-it: 14.4.0
