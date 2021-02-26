@@ -17,11 +17,6 @@
     "postinstall": "husky install",
     "postpublish": "pinst --enable"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pnpx pretty-quick --staged && pnpm test"
-    }
-  },
   "files": [
     "esm",
     "system"
