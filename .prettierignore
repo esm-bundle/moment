@@ -9,3 +9,6 @@ system/
 .kodiak.toml
 karma.conf.cjs
 .nvmrc
+.husky/
+.github/
+pnpm-lock.yaml
