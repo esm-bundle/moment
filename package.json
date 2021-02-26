@@ -6,18 +6,18 @@
   "module": "esm/index.js",
   "type": "module",
   "scripts": {
-    "test": "yarn build && concurrently yarn:test:unit yarn:test:browser",
+    "test": "pnpm build && concurrently pnpm:test:unit pnpm:test:browser",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "test:browser:debug": "karma start karma.conf.cjs",
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
     "build": "rollup -c",
     "prettier": "prettier --write './**/*'",
     "release": "release-it",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "pnpm build"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn test"
+      "pre-commit": "pnpx pretty-quick --staged && pnpm test"
     }
   },
   "files": [
