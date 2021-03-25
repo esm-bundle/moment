@@ -13,7 +13,7 @@
     "build": "rollup -c",
     "prettier": "prettier --write './**/*'",
     "release": "release-it",
-    "prepublishOnly": "pnpm build",
+    "prepublishOnly": "pnpm build && pinst --disable",
     "postinstall": "husky install",
     "postpublish": "pinst --enable"
   },
