@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/esm-bundle/moment#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "18.0.0",
+    "@rollup/plugin-commonjs": "18.1.0",
     "chai": "4.3.4",
     "concurrently": "5.3.0",
     "husky": "6.0.0",
