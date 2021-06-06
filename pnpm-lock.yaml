@@ -14,7 +14,7 @@ specifiers:
   pinst: 2.1.6
   prettier: 2.3.1
   pretty-quick: 3.1.0
-  release-it: 14.7.0
+  release-it: 14.8.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.50.6
   rollup-cli: 1.0.9
@@ -34,7 +34,7 @@ devDependencies:
   pinst: 2.1.6
   prettier: 2.3.1
   pretty-quick: 3.1.0_prettier@2.3.1
-  release-it: 14.7.0
+  release-it: 14.8.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.50.6
   rollup-cli: 1.0.9
@@ -1984,8 +1984,8 @@ packages:
       '@nodelib/fs.walk': 1.2.6
       glob-parent: 5.1.1
       merge2: 1.4.1
-      micromatch: 4.0.2
-      picomatch: 2.2.2
+      micromatch: 4.0.4
+      picomatch: 2.3.0
     dev: true
 
   /fast-json-stable-stringify/2.1.0:
@@ -3445,14 +3445,6 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /micromatch/4.0.2:
-    resolution: {integrity: sha512-y7FpHSbMUMoyPbYUSzO6PaZ6FyRnQOpHuKwbo1G+Knck95XVU4QAiKdGEnj5wwoS7PlOgthX/09u5iFJ+aYf5Q==}
-    engines: {node: '>=8'}
-    dependencies:
-      braces: 3.0.2
-      picomatch: 2.2.2
-    dev: true
-
   /micromatch/4.0.4:
     resolution: {integrity: sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==}
     engines: {node: '>=8.6'}
@@ -4088,8 +4080,8 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it/14.7.0:
-    resolution: {integrity: sha512-g8z6BR7qsO1r0HtS4rquRU5PmwHrIZ5jYTuaaa1ZSLrh91Nm23PBpHR/0jsA549Qzujj4W/mkeskoAAIvHugWQ==}
+  /release-it/14.8.0:
+    resolution: {integrity: sha512-XCw4kzJqdKgtis97HcNZ45r5dx+tZhcG1Yu2IEBKym1SceXiLBbycLsfqJQ8z+VLimClKpDeBdJkU03Vo/yFqw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
