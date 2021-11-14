@@ -14,7 +14,7 @@ specifiers:
   pinst: 2.1.6
   prettier: 2.4.1
   pretty-quick: 3.1.1
-  release-it: 14.11.6
+  release-it: 14.11.7
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.60.0
   rollup-cli: 1.0.9
@@ -34,7 +34,7 @@ devDependencies:
   pinst: 2.1.6
   prettier: 2.4.1
   pretty-quick: 3.1.1_prettier@2.4.1
-  release-it: 14.11.6
+  release-it: 14.11.7
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.60.0
   rollup-cli: 1.0.9
@@ -4069,8 +4069,8 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it/14.11.6:
-    resolution: {integrity: sha512-6BNcuzFZHThBUBJ/xYw/bxZ+58CAwrwf1zgmjq2Ibl3nlDZbjphHG6iqxkJu7mZ8TIWs6NjloEAhqpjeXoN//Q==}
+  /release-it/14.11.7:
+    resolution: {integrity: sha512-m4p9+x6AEQPczc96Jyg6dGFeovpJVgRCtA1lxeIgTmQVt9dutYPkkjZeJngZgUJ17/Lb1bx6ZzW2qsKmopKnbQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
