@@ -14,7 +14,7 @@ specifiers:
   pinst: 2.1.6
   prettier: 2.5.1
   pretty-quick: 3.1.3
-  release-it: 14.11.8
+  release-it: 14.12.1
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.63.0
   rollup-cli: 1.0.9
@@ -34,7 +34,7 @@ devDependencies:
   pinst: 2.1.6
   prettier: 2.5.1
   pretty-quick: 3.1.3_prettier@2.5.1
-  release-it: 14.11.8
+  release-it: 14.12.1
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.63.0
   rollup-cli: 1.0.9
@@ -66,7 +66,7 @@ packages:
       '@babel/traverse': 7.13.0
       '@babel/types': 7.13.0
       convert-source-map: 1.7.0
-      debug: 4.3.2
+      debug: 4.3.3
       gensync: 1.0.0-beta.2
       json5: 2.2.0
       lodash: 4.17.21
@@ -337,7 +337,7 @@ packages:
       '@babel/helper-split-export-declaration': 7.12.13
       '@babel/parser': 7.16.7
       '@babel/types': 7.13.0
-      debug: 4.3.2
+      debug: 4.3.3
       globals: 11.12.0
       lodash: 4.17.21
     transitivePeerDependencies:
@@ -926,7 +926,7 @@ packages:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1584,18 +1584,6 @@ packages:
       ms: 2.0.0
     dev: true
 
-  /debug/4.3.2:
-    resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-    dev: true
-
   /debug/4.3.2_supports-color@8.1.1:
     resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
     engines: {node: '>=6.0'}
@@ -1607,6 +1595,18 @@ packages:
     dependencies:
       ms: 2.1.2
       supports-color: 8.1.1
+    dev: true
+
+  /debug/4.3.3:
+    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
     dev: true
 
   /decamelize/4.0.0:
@@ -1802,7 +1802,7 @@ packages:
       base64id: 2.0.0
       cookie: 0.4.1
       cors: 2.8.5
-      debug: 4.3.2
+      debug: 4.3.3
       engine.io-parser: 5.0.1
       ws: 8.2.3
     transitivePeerDependencies:
@@ -2290,7 +2290,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2319,7 +2319,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2634,7 +2634,7 @@ packages:
     resolution: {integrity: sha512-c16LpFRkR8vQXyHZ5nLpY35JZtzj1PQY1iZmesUbf1FZHbIupcWfjgOXBY9YHkLEQ6puz1u4Dgj6qmU/DisrZg==}
     engines: {node: '>=8'}
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.3
       istanbul-lib-coverage: 3.2.0
       source-map: 0.6.1
     transitivePeerDependencies:
@@ -3323,7 +3323,7 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       date-format: 3.0.0
-      debug: 4.3.2
+      debug: 4.3.3
       flatted: 2.0.2
       rfdc: 1.2.0
       streamroller: 2.2.4
@@ -3979,8 +3979,8 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it/14.11.8:
-    resolution: {integrity: sha512-951DJ0kwjwU7CwGU3BCvRBgLxuJsOPRrZkqx0AsugJdSyPpUdwY9nlU0RAoSKqgh+VTerzecXLIIwgsGIpNxlA==}
+  /release-it/14.12.1:
+    resolution: {integrity: sha512-dYPGZ7F/kfIWzsGlzNCL6PiWfPoaVUILcmqQm80kgYhI/b9RW3k6DVqE0nqI4fHxRT3fMeKWWvS0jdQmFDKn3Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -3989,7 +3989,7 @@ packages:
       async-retry: 1.3.3
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      debug: 4.3.2
+      debug: 4.3.3
       deprecated-obj: 2.0.0
       execa: 5.1.1
       form-data: 4.0.0
@@ -4256,7 +4256,7 @@ packages:
     dependencies:
       '@types/component-emitter': 1.2.10
       component-emitter: 1.3.0
-      debug: 4.3.2
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4267,7 +4267,7 @@ packages:
     dependencies:
       accepts: 1.3.7
       base64id: 2.0.0
-      debug: 4.3.2
+      debug: 4.3.3
       engine.io: 6.0.0
       socket.io-adapter: 2.3.2
       socket.io-parser: 4.0.4
@@ -4333,7 +4333,7 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       date-format: 2.1.0
-      debug: 4.3.2
+      debug: 4.3.3
       fs-extra: 8.1.0
     transitivePeerDependencies:
       - supports-color
