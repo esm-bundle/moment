@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/moment",
-  "version": "2.29.2",
+  "version": "2.29.3",
   "description": "Repo to test esm-bundle's automatic publishing",
   "main": "index.js",
   "module": "esm/index.js",
