@@ -6,7 +6,7 @@ specifiers:
   concurrently: 7.1.0
   husky: 8.0.1
   jest-cli: 28.1.0
-  karma: 6.3.19
+  karma: 6.3.20
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.0.1
   mocha: 10.0.0
@@ -26,9 +26,9 @@ devDependencies:
   concurrently: 7.1.0
   husky: 8.0.1
   jest-cli: 28.1.0
-  karma: 6.3.19
+  karma: 6.3.20
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 5.0.1_karma@6.3.19
+  karma-jasmine: 5.0.1_karma@6.3.20
   mocha: 10.0.0
   moment: 2.29.3
   pinst: 3.0.0
@@ -3488,18 +3488,18 @@ packages:
       which: 2.0.2
     dev: true
 
-  /karma-jasmine/5.0.1_karma@6.3.19:
+  /karma-jasmine/5.0.1_karma@6.3.20:
     resolution: {integrity: sha512-FkL1Kk+JAKmim8VWU8RXKZBpl0lLI7J8LijM0/q7oP7emfB6QMZV1Az+JgqGKSLpF0tYaav+KUVFQroZUxQTHA==}
     engines: {node: '>=12'}
     peerDependencies:
       karma: ^6.0.0
     dependencies:
       jasmine-core: 4.1.0
-      karma: 6.3.19
+      karma: 6.3.20
     dev: true
 
-  /karma/6.3.19:
-    resolution: {integrity: sha512-NDhWckzES/Y9xMiddyU1RzaKL76/scCsu8Mp0vR0Z3lQRvC3p72+Ab4ppoxs36S9tyPNX5V48yvaV++RNEBPZw==}
+  /karma/6.3.20:
+    resolution: {integrity: sha512-HRNQhMuKOwKpjYlWiJP0DUrJOh+QjaI/DTaD8b9rEm4Il3tJ8MijutVZH4ts10LuUFst/CedwTS6vieCN8yTSw==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
