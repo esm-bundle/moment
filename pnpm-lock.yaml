@@ -12,7 +12,7 @@ specifiers:
   mocha: 10.2.0
   moment: 2.29.4
   pinst: 3.0.0
-  prettier: 3.0.1
+  prettier: 3.0.2
   pretty-quick: 3.1.3
   release-it: 16.1.5
   release-it-plugin-esm-bundle: 3.0.0
@@ -32,8 +32,8 @@ devDependencies:
   mocha: 10.2.0
   moment: 2.29.4
   pinst: 3.0.0
-  prettier: 3.0.1
-  pretty-quick: 3.1.3_prettier@3.0.1
+  prettier: 3.0.2
+  pretty-quick: 3.1.3_prettier@3.0.2
   release-it: 16.1.5
   release-it-plugin-esm-bundle: 3.0.0_release-it@16.1.5
   rollup: 2.79.1
@@ -4223,8 +4223,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /prettier/3.0.1:
-    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
+  /prettier/3.0.2:
+    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -4238,7 +4238,7 @@ packages:
       react-is: 18.0.0
     dev: true
 
-  /pretty-quick/3.1.3_prettier@3.0.1:
+  /pretty-quick/3.1.3_prettier@3.0.2:
     resolution: {integrity: sha512-kOCi2FJabvuh1as9enxYmrnBC6tVMoVOenMaBqRfsvBHB0cbpYHjdQEpSglpASDFEXVwplpcGR4CLEaisYAFcA==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -4251,7 +4251,7 @@ packages:
       ignore: 5.1.8
       mri: 1.1.6
       multimatch: 4.0.0
-      prettier: 3.0.1
+      prettier: 3.0.2
     dev: true
 
   /promise.allsettled/1.0.6:
