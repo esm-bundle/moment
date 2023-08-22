@@ -34,7 +34,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "25.0.4",
     "chai": "4.3.4",
-    "concurrently": "8.2.0",
+    "concurrently": "8.2.1",
     "husky": "8.0.3",
     "jest-cli": "29.6.3",
     "karma": "6.4.2",
