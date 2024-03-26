@@ -33,7 +33,7 @@
   "homepage": "https://github.com/esm-bundle/moment#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "25.0.7",
-    "chai": "4.3.4",
+    "chai": "4.4.1",
     "concurrently": "8.2.2",
     "husky": "9.0.11",
     "jest-cli": "29.7.0",
