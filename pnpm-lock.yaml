@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@rollup/plugin-commonjs': 28.0.2
   chai: 4.3.4
-  concurrently: 9.1.1
+  concurrently: 9.1.2
   husky: 9.1.7
   jest-cli: 29.7.0
   karma: 6.4.4
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@rollup/plugin-commonjs': 28.0.2_rollup@2.79.2
   chai: 4.3.4
-  concurrently: 9.1.1
+  concurrently: 9.1.2
   husky: 9.1.7
   jest-cli: 29.7.0
   karma: 6.4.4
@@ -1446,8 +1446,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /concurrently/9.1.1:
-    resolution: {integrity: sha512-6VX8lrBIycgZKTwBsWS+bLrmkGRkDmvtGsYylRN9b93CygN6CbK46HmnQ3rdSOR8HRjdahDrxb5MqD9cEFOg5Q==}
+  /concurrently/9.1.2:
+    resolution: {integrity: sha512-H9MWcoPsYddwbOGM6difjVwVZHl63nwMEwDJG/L7VGtuaJhb12h2caPG2tVPWs7emuYix252iGfqOyrz1GczTQ==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
